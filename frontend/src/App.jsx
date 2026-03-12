@@ -8,7 +8,7 @@ function App() {
                   // replace this link with your backend url after deploying 
                   // your backend to cloud run 
                   // keep the localhost url for testing locally
-  const API_URL = 'https://gcp-test-3-backend-69178793011.us-central1.run.app' || 'http://localhost:3000'
+  const API_URL = 'https://my-gcp-website-backend-802377120995.us-central1.run.app/' || 'http://localhost:3000'
 
  useEffect(() => {
     fetch(API_URL)
